@@ -20,5 +20,13 @@
     "nodes": {
       "bible": "nodes/bible.js"
     }
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "node-red": "^2.2.2",
+    "node-red-node-test-helper": "^0.3.2"
+  },
+  "scripts": {
+    "test": "mocha \"tests/**/*_spec.js\""
   }
 }
