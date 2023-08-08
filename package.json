@@ -18,7 +18,8 @@
   "node-red": {
     "version": ">=1.2.0",
     "nodes": {
-      "bible": "nodes/bible.js"
+      "getScripture": "nodes/getBGScripture.js",
+      "getLink": "nodes/getBGLink.js"
     }
   },
   "devDependencies": {
