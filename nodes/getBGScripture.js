@@ -1,6 +1,6 @@
 module.exports = function(RED) {
 
-    function BibleNode(config) {
+    function GetBibleGatewayScriptureNode(config) {
 
         RED.nodes.createNode(this, config);
         let node = this;
@@ -11,6 +11,6 @@ module.exports = function(RED) {
         });
     }
 
-    RED.nodes.registerType("bible",BibleNode);
+    RED.nodes.registerType("get bg scripture", GetBibleGatewayScriptureNode);
 
 }
