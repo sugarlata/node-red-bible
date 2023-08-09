@@ -29,6 +29,9 @@ jobs:
           npm run test
 
   publish:
+    permissions:
+      checks: write
+      contents: write
     runs-on: ubuntu-latest
     needs: [test]
     steps:
