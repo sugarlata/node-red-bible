@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/sugarlata/node-red-bible.git"
   },
+  "release": {
+    "branches": ["main"]
+  },
   "keywords": [
     "node-red"
   ],
