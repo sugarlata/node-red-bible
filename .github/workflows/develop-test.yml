@@ -1,4 +1,4 @@
-name: Development Tests
+name: Develop Branch Tests
 
 on:
   push:
