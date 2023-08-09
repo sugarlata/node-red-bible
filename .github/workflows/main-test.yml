@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  test:
     permissions:
       checks: write
       contents: read
@@ -28,3 +28,6 @@ jobs:
         run: |
           npm run test
 
+  publish:
+    runs-on: ubuntu-latest
+    needs: []
