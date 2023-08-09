@@ -7,7 +7,9 @@
     "url": "https://github.com/sugarlata/node-red-bible.git"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "keywords": [
     "node-red"
