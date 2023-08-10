@@ -23,6 +23,32 @@
     </div>
 </script>
 
-<script type="text/html" data-help-name="get bg scripture">
+<script type="text/markdown" data-help-name="get bg scripture">
     
+Requests scripture from biblegateway.com based on book of the bible and chapter.
+
+### Inputs
+
+: payload (object) : Object with keys "book", "chapter".
+
+### Outputs
+
+1. Standard Output
+: payload (string) : Passage from Bible Gateway.
+
+2. Standard Error
+: payload (string) : Error Description
+
+### Details
+
+`msg.payload` contains the scripture requested. The version is WEB due to licensing. For more information see [here](https://www.biblegateway.com/versions/World-English-Bible-WEB/#copy) and [here](https://en.wikipedia.org/wiki/World_English_Bible).
+
+If the scripture requested is invalid, an error will be raised.
+
+### References
+
+- [Bible Gateway Version - WEB](https://www.biblegateway.com/versions/World-English-Bible-WEB)
+- [GitHub Repo](https://github.com/sugarlata/node-red-bible/) - Code Base
+- [Issues](https://github.com/sugarlata/node-red-bible/issues) - Where to report issues
+
 </script>
