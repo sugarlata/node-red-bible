@@ -1,0 +1,357 @@
+[
+    {
+        "id": "2ed484e8e449f630",
+        "type": "tab",
+        "label": "Bible Node Examples",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0e0fadc82fcb9f0f",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "Genesis 1 (Version: NASB)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"Matt\",\"chapter\":1,\"version\":\"NASB\"}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "7d7c36bcaeaf143c"
+            ]
+        ]
+    },
+    {
+        "id": "c4cf2cd495586229",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7d7c36bcaeaf143c",
+        "type": "get bg link",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 600,
+        "y": 220,
+        "wires": [
+            [
+                "c4cf2cd495586229"
+            ]
+        ]
+    },
+    {
+        "id": "3621aed5a0178480",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "John 1 (NASB)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"John\",\"chapter\":1,\"version\":\"NASB\"}",
+        "payloadType": "json",
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "8c7797abeb1e736d"
+            ]
+        ]
+    },
+    {
+        "id": "935469dc3dce509c",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "Genesis 1 (No Version)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"Gen\",\"chapter\":1}",
+        "payloadType": "json",
+        "x": 320,
+        "y": 180,
+        "wires": [
+            [
+                "3bdb86aab857fa54"
+            ]
+        ]
+    },
+    {
+        "id": "da8bc6c7c4170ad1",
+        "type": "get bg scripture",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "ceaa3ccaefcfbb52"
+            ]
+        ]
+    },
+    {
+        "id": "ceaa3ccaefcfbb52",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4f7f15a5b1efd701",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "Genesis 1 (Format: Text)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"Gen\",\"chapter\":1, \"format\": \"text\"}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "da8bc6c7c4170ad1"
+            ]
+        ]
+    },
+    {
+        "id": "3bdb86aab857fa54",
+        "type": "get bg link",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 600,
+        "y": 180,
+        "wires": [
+            [
+                "e57ab86f573d16ae"
+            ]
+        ]
+    },
+    {
+        "id": "8c7797abeb1e736d",
+        "type": "get bg link",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "98e3d843ddfee416"
+            ]
+        ]
+    },
+    {
+        "id": "e57ab86f573d16ae",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "98e3d843ddfee416",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "844658b8a52bc462",
+        "type": "get bg scripture",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 610,
+        "y": 440,
+        "wires": [
+            [
+                "4d7390a2a8a2ea07"
+            ]
+        ]
+    },
+    {
+        "id": "4d7390a2a8a2ea07",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "fb94a4e42abda745",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "Genesis 1 (Format: HTML)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"Gen\",\"chapter\":1, \"format\": \"html\"}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 440,
+        "wires": [
+            [
+                "844658b8a52bc462"
+            ]
+        ]
+    },
+    {
+        "id": "64898842151a2454",
+        "type": "get bg scripture",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "x": 610,
+        "y": 360,
+        "wires": [
+            [
+                "1fd6dfb6b271c1c0"
+            ]
+        ]
+    },
+    {
+        "id": "1fd6dfb6b271c1c0",
+        "type": "debug",
+        "z": "2ed484e8e449f630",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6505eb1c01fe1a79",
+        "type": "inject",
+        "z": "2ed484e8e449f630",
+        "name": "Genesis 1 (No Format)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"book\":\"Gen\",\"chapter\":1}",
+        "payloadType": "json",
+        "x": 320,
+        "y": 360,
+        "wires": [
+            [
+                "64898842151a2454"
+            ]
+        ]
+    }
+]
