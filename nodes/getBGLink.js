@@ -14,6 +14,10 @@ module.exports = function(RED) {
             const version = msg.payload.version || msg.version;
 
             msg.payload = utils.bgURLGenerator(book, chapter, version)
+            msg.book = book;
+            msg.chapter = chapter;
+            msg.version = version;
+
             node.send(msg);
         });
     }
