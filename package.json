@@ -1,10 +1,10 @@
 {
-  "name": "@sugarlata/node-red-bible",
+  "name": "@sugarlata/node-red-contrib-bible-gateway",
   "version": "0.0.0-development",
   "description": "A Node-RED custom node to download scripture from bible gateway.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sugarlata/node-red-bible.git"
+    "url": "https://github.com/sugarlata/node-red-contrib-bible-gateway.git"
   },
   "release": {
     "branches": [
@@ -28,9 +28,9 @@
   "author": "Nathan Sgarlata",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sugarlata/node-red-bible/issues"
+    "url": "https://github.com/sugarlata/node-red-contrib-bible-gateway/issues"
   },
-  "homepage": "https://github.com/sugarlata/node-red-bible#readme",
+  "homepage": "https://github.com/sugarlata/node-red-contrib-bible-gateway#readme",
   "node-red": {
     "version": ">=1.2.0",
     "nodes": {

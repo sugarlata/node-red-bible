@@ -2,8 +2,8 @@
 <p align="center"><a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/@sugarlata/node-red-bible"><img src="https://img.shields.io/npm/v/@sugarlata/node-red-bible.svg" alt="Main" style="max-width: 100%;"></a></p>
 
 <p align="center">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/sugarlata/node-red-bible/tree/main"><img src="https://github.com/sugarlata/node-red-bible/actions/workflows/main-test.yml/badge.svg?branch=main" alt="Main" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/sugarlata/node-red-bible/tree/develop"><img src="https://github.com/sugarlata/node-red-bible/actions/workflows/develop-test.yml/badge.svg?branch=develop" alt="Main" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/sugarlata/node-red-contrib-bible-gateway/tree/main"><img src="https://github.com/sugarlata/node-red-contrib-bible-gateway/actions/workflows/main-test.yml/badge.svg?branch=main" alt="Main" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/sugarlata/node-red-contrib-bible-gateway/tree/develop"><img src="https://github.com/sugarlata/node-red-contrib-bible-gateway/actions/workflows/develop-test.yml/badge.svg?branch=develop" alt="Main" style="max-width: 100%;"></a>
 </p>
 
 Nodes for interacting with bible gateway. node-red-bible enables you to create URLs to link directly to Bible Gateway, or download chapters of scripture from Bible Gateway.
@@ -11,9 +11,9 @@ Nodes for interacting with bible gateway. node-red-bible enables you to create U
 
 ## Documentation / Links
 
-- [Examples](https://github.com/sugarlata/node-red-bible/tree/main/examples)
-- [Code Repo](https://github.com/sugarlata/node-red-bible)
-- [Issues](https://github.com/sugarlata/node-red-bible/issues)
+- [Examples](https://github.com/sugarlata/node-red-contrib-bible-gateway/tree/main/examples)
+- [Code Repo](https://github.com/sugarlata/node-red-contrib-bible-gateway)
+- [Issues](https://github.com/sugarlata/node-red-contrib-bible-gateway/issues)
 
 ## Getting Started
 
