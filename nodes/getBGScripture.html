@@ -29,7 +29,7 @@ Requests scripture from biblegateway.com based on book of the bible and chapter.
 
 ### Inputs
 
-: payload (object) : Object with keys "book", "chapter".
+: payload (object) : Object with keys "book", "chapter", "format".
 
 ### Outputs
 
@@ -42,6 +42,8 @@ Requests scripture from biblegateway.com based on book of the bible and chapter.
 ### Details
 
 `msg.payload` contains the scripture requested. The version is WEB due to licensing. For more information see [here](https://www.biblegateway.com/versions/World-English-Bible-WEB/#copy) and [here](https://en.wikipedia.org/wiki/World_English_Bible).
+
+The format key / value can be set to "html" or "text". The default is "text".
 
 If the scripture requested is invalid, an error will be raised.
 
