@@ -38,7 +38,7 @@ Then run
 node-red
 ```
 
-Import the [example file]() into Node Red
+Import the [example file](https://github.com/sugarlata/node-red-contrib-bible-gateway/blob/main/examples/examples.json) into Node Red
 
 ## Credits
 
