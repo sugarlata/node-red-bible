@@ -15,11 +15,11 @@ module.exports = function(RED) {
             const version = constants.DOWNLOADABLE_BIBLE_VERSION;
             const format = msg.payload.format || msg.format || "text";
 
-            const url = utils.bgURLGenerator(book, chapter, version=version);
+            const url = utils.bgURLGenerator(book, chapter, version);
 
-            utils.getScripture(url, format).then(resp => {
+            utils.getScripture(url, format).then(scripture => {
 
-                msg.payload = resp;
+                msg.payload = scripture;
                 msg.book = book;
                 msg.chapter = chapter;
                 msg.version = version;
