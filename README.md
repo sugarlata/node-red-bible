@@ -8,6 +8,8 @@
 
 Nodes for interacting with bible gateway. @sugarlata/node-red-contrib-bible-gateway enables you to create URLs to link directly to Bible Gateway, or download chapters of scripture from Bible Gateway.
 
+<a target="blank" href="https://paypal.me/sugarlata"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg"/></a>
+
 
 ## Documentation / Links
 
